@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link href="css/main.css" type="text/css" rel="stylesheet"/>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+</head>
+<body>
+   
+    <div class="header">
+        <div class="header1"></div>
+        
+        <div class="header2">
+            <div class="login"></div>
+            
+            <ul class="name">
+                <li>Home</li>
+                <li>Services</li>
+                <li>Locations</li>
+                <li>Offers</li>
+                <li>FAQs</li>
+               </ul>
+
+        </div>
+         <div id="swipemenu"></div> 
+         <button onclick="tabbutton()" class="swipetab"><i class="fa-solid fa-bars" style="color: #ffffff;"></i></button>
+    </div>
+    <div class="banner">
+        <div class="banner1">
+            <div class="bannerbox">
+                <div class="long">
+                    <h1>  Rent A Car For A Comfortable
+                        <br>
+                        Long Tour </h1>
+                    </div>
+                    <div class="drivemore">
+                        Drive more, worry less! Budget-friendly rates on all rentals.
+                    </div>
+                </div>
+                <div class="bannerbox1">
+                    <div class="bannercar">
+                        <img class="carbanner" src="img/pngegg.png"/>
+                    </div>
+                </div>
+            </div>
+            <div class="banner2">
+                <div class="booking">
+                    <div class="bookingbox">
+                        <form>
+                            <div class="available">
+                                <p>WE ARE AVAILABLE FOR YOUR SERVICE AT 
+                                    <span style="color: red;">INDIA</span>
+                                </p>
+                            </div>
+                            <div class="pickup">
+                                <div class="date">
+                                    <label class="pickupdate">Pick-up</label>
+                                    <input class="datebox" type="datetime-local"/>
+                                </div>
+                                <div class="time">
+                                    <div>
+                                        <select class="selection">
+                                            <option>Locations</option>
+                                            <option>Locations</option>
+                                            <option>Locations</option>
+                                            <option>Locations</option>
+                                            <option>Locations</option>
+                                            <option>Locations</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="dropoff">
+                                    <div class="offdate">
+                                        <label class="dropoffdate">Drop-off</label>
+                                        <input class="offdatebox" type="datetime-local"/>
+                                    </div>
+                                    <div class="offtime">
+                                        <select class="selection">
+                                            <option>Locations</option>
+                                            <option>Locations</option>
+                                            <option>Locations</option>
+                                            <option>Locations</option>
+                                            <option>Locations</option>
+                                            <option>Locations</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <select id="car" class="selectcar">
+                                        <option value="">Select Car</option>
+                                        <option value="sedan">Sedan</option>
+                                        <option value="suv">SUV</option>
+                                        <option value="sports">Sports</option>
+                                        <option value="van">Van & Truck</option>
+                                    </select>
+                                </div>
+                                <button type="button" class="booknow">BOOK NOW</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="wheels">
+                        <div class="wheelbox">
+                            <p>CRUISE FEELS
+                                CHOOSE <span style="color: red;">WHEELS</span></p>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="our">
+                    <div class="ourservice">
+            <h1>OUR SERVICES</h1>
+        </div>
+        <div class="oursection">
+            <diV class="free">
+                <div class="freebox">
+                    <img class="freeimg" src="img/free cancellation.png">
+                </div>
+                <div class="freebox1">
+                    <p>Free Cancellation</p>
+                </div>
+            </diV>
+            <diV class="free">
+                <div class="freebox">
+                    <img class="freeimg" src="img/Customer Service white.png">
+                </div>
+                <div class="freebox1">
+                    <p>24/7 Customer Service</p>
+                </div>
+            </diV>
+            <diV class="free">
+                <div class="freebox">
+                    <img class="freeimg" src="img/credit card white.png">
+                </div>
+                <div class="freebox1">
+                    <p>No Credit Card Fees</p>
+                </div>
+            </diV>
+        </div>
+    </div>
+   
+    <div class="yourneeds">
+        <div class="needshead">
+            <h1>A FLEET THAT MEETS YOUR NEEDS</h1>
+        </div>
+
+        <div class="owl-carousel owl-theme owl-nav">
+            <div class="item">
+                <div class="carsection">
+                    <div class="sedan">
+                        <div class="sedanimg">
+                            <div class="sedanbox">
+                                <img src="img/NicePng_vw-png_3501495.png" class="carsize1">
+                            </div>
+                        </div>
+                        <div class="sedantext"><h3>SEDAN</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="carsection">
+                    <div class="sedan">
+                        <div class="sedanimg">
+                            <div class="sedanbox">
+                                <img src="img/NicePng_volvo-png_534359.png" class="carsize1">
+                            </div>
+                        </div>
+                        <div class="sedantext"><h3>SUV</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="item">
+                <div class="carsection">
+                    <div class="sedan">
+                        <div class="sedanimg">
+                            <div class="sedanbox">
+                                <img src="img/NicePng_toyota-supra-png_3184276.png" class="carsize1">
+                            </div>
+                        </div>
+                        <div class="sedantext"><h3>SPORTS</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="item">
+                <div class="carsection">
+                    <div class="sedan">
+                        <div class="sedanimg">
+                            <div class="sedanbox">
+                                <img src="img/NicePng_cargo-van-png_3837336.png" class="carsize1">
+                            </div>
+                        </div>
+                        <div class="sedantext"><h3>VAN</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="carsection">
+                    <div class="sedan">
+                        <div class="sedanimg">
+                            <div class="sedanbox">
+                                <img src="img/NicePng_vw-png_3501495.png" class="carsize1">
+                            </div>
+                        </div>
+                        <div class="sedantext"><h3>SEDAN</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="carsection">
+                    <div class="sedan">
+                        <div class="sedanimg">
+                            <div class="sedanbox">
+                                <img src="img/NicePng_vw-png_3501495.png" class="carsize1">
+                            </div>
+                        </div>
+                        <div class="sedantext"><h3>SEDAN</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <!-- Modal -->
+        <script src="https://kit.fontawesome.com/64fc7c3650.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+        <script>
+            $(function() {
+            // Owl Carousel
+            var owl = $(".owl-carousel");
+            owl.owlCarousel({
+              items: 4,
+              margin: 10,
+              loop: true,
+              nav: true,
+              responsiveClass:true,
+              responsive:{
+                  0:{
+                      items:1,
+                      nav:true
+                  },
+                  600:{
+                      items:2,
+                      nav:false
+                  },
+                  1000:{
+                      items:4,
+                      nav:true,
+                      loop:false
+                  }
+                }
+            });
+          });
+          </script>
+
+
+
+    </div>
+    
+    <div class="chooseus">
+        <h1>WHY CHOOSE US ?</h1>
+    </div>
+
+    <div class="choosebox">
+        <div class="choosecurve">
+            <div class="textchoose">
+               <div class="refund">
+                   <h2>Car Safety</h2>
+                   <p>We guarantee the safety of the engine 
+                      on the car always running well with
+                      regular checks on the car engine</p>
+                </div> 
+                <div class="refund">
+                    <h2>Refund</h2>  
+                    <p>
+                        Our service guarantee provides a
+                        money back opportunity if the car does
+                        not match the information provided
+                    </p>
+                </div>
+                <div class="refund" >
+                    <h2>Professional Agent</h2>
+                    <p>
+                        You can ask your travel companion to
+                        escort and guide your journey
+                    </p>
+                </div>
+            </div>
+            <div> 
+                <div class="refund1">
+                    <h2>Easy Rent</h2>
+                    <p>Rent a car at our rental with an easy and
+                        fast process without  disturbing your
+                        productivity</p>
+                </div>
+            </div>  
+            
+           
+            <div class="imgpolo">
+               <img src="img/red polo.png" class="polo">
+            </div>
+        </div>
+    </div>
+    <div class="howit">
+        <h1>HOW IT WORK</h1>
+    </div>
+    <div class="howitbox">
+        <div class="calender">
+            <div class="calenderimg">
+                <img src="img/red calender.png" class="img">
+            </div>
+            <div class="calendertext">
+                <h3>Select Time </h3>
+            </div>
+        </div>
+        <div class="calender">
+            <div class="calenderimg">
+                <img src="img/time red.png" class="img">
+            </div>
+            <div class="calendertext">
+                <h3>Select Date </h3>
+            </div>
+        </div>
+        <div class="calender">
+            <div class="calenderimg">
+                <img src="img/gps red.png" class="img">
+            </div>
+            <div class="calendertext">
+                <h3>Select Pick-Up</h3>
+            </div>
+        </div>
+        <div class="calender">
+            <div class="calenderimg">
+                <img src="img/car icon red.png" class="img1">
+            </div>
+            <div class="calendertext">
+                <h3>Select Your Car</h3>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="benefit">BENEFITS</div>
+    <div class="benefitbox">
+        <div class="discount">
+            <div class="discountimg">
+                <img src="img/cup icon.png" class="img2">
+            </div>
+            <div class="discounttext">
+                <h4>Discount & Benefit</h4>
+            </div>
+            <button type="button" class="booknow2">BOOK NOW</button>
+        </div>
+        <div class="discount">
+            <div class="discountimg">
+                <img src="img/calend icon.png" class="img2">
+            </div>
+            <div class="discounttext">
+                <h4>Daily / Weekly </h4>
+            </div>
+            <button type="button" class="booknow2">BOOK NOW</button>
+        </div>
+        <div class="discount">
+            <div class="discountimg">
+                <img src="img/phone qr icon.png" class="img2">
+            </div>
+            <div class="discounttext">
+                <h4>Daily / Weekly </h4>
+            </div>
+            <button type="button" class="booknow2">BOOK NOW</button>
+        </div>
+        
+    </div>
+    <div class="faq">FAQs</div>
+    <div class="faqbox">
+        <section class="accordion">
+            <div class="tab">
+              <input type="checkbox" name="accordion-1" id="cb1" checked>
+              <label for="cb1" class="tab__label">What types of vehicles do you sell?</label>
+              <div class="tab__content">
+                <p>This includes sedans, sports, vans&truck, SUVs, coupes, convertibles, and more. They come in various 
+                    sizes and are suitable for different purposes, from daily commuting to family road trips..</p>
+              </div>
+            </div>
+            <div class="tab">
+              <input type="checkbox" name="accordion-1" id="cb2">
+              <label for="cb2" class="tab__label">Do you offer new or used cars?</label>
+              <div class="tab__content">
+                <p>Using <code>&lt;input type="checkbox"&gt;</code> allows to have several tabs open at the same time.</p>
+              </div>
+            </div>
+
+            <div class="tab">
+                <input type="checkbox" name="accordion-1" id="cb3">
+                <label for="cb3" class="tab__label">What financing options do you offer?Open multiple</label>
+                <div class="tab__content">
+                  <p>Using <code>&lt;input type="checkbox"&gt;</code> allows to have several tabs open at the same time.</p>
+                </div>
+              </div>
+
+              <div class="tab">
+                <input type="checkbox" name="accordion-1" id="cb4">
+                <label for="cb4" class="tab__label">Can I schedule a test drive?</label>
+                <div class="tab__content">
+                  <p>Using <code>&lt;input type="checkbox"&gt;</code> allows to have several tabs open at the same time.</p>
+                </div>
+              </div>
+          </section>
+    </div>
+    
+    <div>
+    <div class="footer">
+        
+        <div class="footerinlogo">
+            <div class="footerlogo">
+                <img src="img/car hub png w.png" class="img3">
+            </div>
+            <div class="email">
+                <img src="img/email.png" class="emailimg">
+                carhub@gmail.com
+            </div>
+            <div class="email1">
+                <img src="img/phone number.png" class="callimg">
+               +91 9929203453
+            </div>
+            <div class="social">
+                <img src="img/twitter.png" class="socialimg">
+                <img src="img/instagram.png" class="socialimg">
+                <img src="img/facebook.png" class="socialimg">
+            </div>
+        </div>
+        <div class="footerin">
+           <div class="helpfullink"><h2>Helpful link</h2></div>
+           <div class="helpfullink1">
+            <ul>
+                <li>Our services</li>
+                <li>How it works</li>
+                <li>Benafits</li>
+                <li>Why choose us</li>
+                <li>FAQs</li>
+           </ul>
+           </div>
+        </div>
+
+        <div class="footerin">
+            <div class="helpfullink"><h2>Services</h2></div>
+            <div class="helpfullink1">
+                <ul>
+                    <li>Free Cancellation</li>
+                    <li>24/7 Customer Service</li>
+                    <li>No Credit Card Fees</li>
+
+               </ul>
+             
+            </div>
+         
+        </div>
+        <div class="footerinq">
+            <div class="helpfullink"><h2>Company</h2></div>
+            <div class="helpfullink1">
+                <ul>
+                    <li>Contact us</li>
+                    <li>My account</li>
+
+               </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        function tabbutton(){
+            var menubox=document.getElementById()
+        }
+    </script>
+    <div id="swipemenu"></div>
+</body>
+</html>        
