@@ -33,7 +33,7 @@
     </div>
     <div class="menunavigation">
         <div class="backbutton">
-            <i class="fa-solid fa-xmark" style="color: #ffffff;"></i>        </div>
+           <i class="fa-solid fa-xmark" style="color: #ffffff;"></i>        </div>
         <nav class="navigationn">
         
           <ul class="optionslist">
@@ -532,9 +532,11 @@
         document.querySelector(".backbutton").addEventListener("click", backFunction)
         function backFunction() {
           console.log("read");
-          document.querySelector(".menunavigation").style.right = "-733px";
+      var y=    document.querySelector(".menunavigation").style.right = "-733px";
+      document.querySelector(".menunavigation").style.display = "none";
     
         }
+
     
       </script>
 </body>
