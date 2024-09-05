@@ -8,13 +8,16 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 </head>
+<style>
+    body{overflow-x: hidden;}
+</style>
 <body>
    
     <div class="header">
         <div class="header1"></div>
         
         <div class="header2">
-            <div class="login"></div>
+            
             
             <ul class="name">
                 <li>Home</li>
@@ -25,15 +28,30 @@
                </ul>
 
         </div>
-         <div id="swipemenu"></div> 
-         <button onclick="tabbutton()" class="swipetab"><i class="fa-solid fa-bars" style="color: #ffffff;"></i></button>
+         <!-- <div id="swipemenu"></div>  -->
+         <button onclick="menuFunction()" class="swipetab"><i class="fa-solid fa-bars" style="color: #ffffff ;"></i></button>
     </div>
+    <div class="menunavigation">
+        <div class="backbutton">
+            <i class="fa-solid fa-xmark" style="color: #ffffff;"></i>        </div>
+        <nav class="navigationn">
+        
+          <ul class="optionslist">
+            <li>Home</li>
+            <li>Services</li>
+            <li>Locations</li>
+            <li>Offers</li>
+            <li>FAQs</li>
+
+          </ul>
+        </nav>
+      </div>
     <div class="banner">
         <div class="banner1">
             <div class="bannerbox">
                 <div class="long">
                     <h1>  Rent A Car For A Comfortable
-                        <br>
+                        
                         Long Tour </h1>
                     </div>
                     <div class="drivemore">
@@ -252,6 +270,8 @@
               margin: 10,
               loop: true,
               nav: true,
+              navText:["<i class='fa-solid fa-chevron-left' style='color: #ffffff; font-size: 18px;'></i>","<i class='fa-solid fa-chevron-right' style='color: #ffffff; font-size: 18px;'></i>"],
+              
               responsiveClass:true,
               responsive:{
                   0:{
@@ -428,7 +448,7 @@
           </section>
     </div>
     
-    <div>
+    
     <div class="footer">
         
         <div class="footerinlogo">
@@ -486,11 +506,36 @@
             </div>
         </div>
     </div>
+
+    <div class="copy">
+        <p class="copysize">© Copyright 2024</p>
+    </div>
+   
+   
     <script>
         function tabbutton(){
             var menubox=document.getElementById()
         }
     </script>
-    <div id="swipemenu"></div>
+    <script>
+        document.querySelector(".swipetab").addEventListener("click", menuFunction)
+        function menuFunction() {
+          console.log("read");
+         var x= document.querySelector(".menunavigation").style.right = "0px";
+         document.querySelector(".menunavigation").style.display = "block";
+        }
+    
+      </script>
+    <script>
+
+        // back function
+        document.querySelector(".backbutton").addEventListener("click", backFunction)
+        function backFunction() {
+          console.log("read");
+          document.querySelector(".menunavigation").style.right = "-733px";
+    
+        }
+    
+      </script>
 </body>
 </html>        

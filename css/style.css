@@ -96,6 +96,7 @@ body{
     font-family: poppins;
     color: white;
     padding-top: 10px;
+    padding-bottom: 5px;
     position: relative;
     width: 116%;
     padding-left: 20px;
@@ -204,7 +205,7 @@ body{
     background: url(../img/gps\ png.png);
     background-size: 20px;
     background-repeat: no-repeat;
-    background-position: 237px;
+    background-position: 96%;
     
 }
 .dropoff{
@@ -284,7 +285,8 @@ body{
     display: flex;
     font-family: impact;
     align-items: center;
-    padding: 0px 56px 0px 85px;
+    padding: 40px;
+
 }
 .our{
     height: auto;
@@ -304,26 +306,31 @@ body{
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
+    column-gap: 10px;
 }
 .free{
     height: auto;
     background-color: #E70000;
     border-radius: 18px;
     display: flex;
+    width: 33%;
+}
+.optionslist{
+    color: white;
 }
 .freebox{
     height: auto;
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    padding: 32px 16px;
+    padding: 32px 39px;
 }
 .freeimg{
     height: 50px;
     width: 50px;
 }
-.freebox1{
-    font-size: 22px;
+.freebox1 {
+    font-size: 18px;
     font-family: regular;
     color: white;
     padding: 32px 16px;
@@ -598,6 +605,7 @@ body{
     align-items: center;
     justify-content: space-around;
     color: #E9E4E4;
+    text-align: center;
 }
 .img{
     height: 54px;
@@ -639,7 +647,7 @@ body{
 .discount{
     height: 200px;
     background-color: #E9E4E4;
-    width: 32%;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -705,7 +713,7 @@ body{
 }
 .img3{
     height: 65px;
-    padding-top: 13%;
+    padding-top: 9%;
 }
 .email{
     height: 27px;
@@ -714,7 +722,7 @@ body{
     display: flex;
 }
 .emailimg{
-    height: 20px;
+    height: 17px;
     margin-right: 11px;
 
 }
@@ -859,8 +867,11 @@ body{
 .swipetab{
     font-size: 33px;
     margin-top: 10px;
-    background-color: grey;
-
+    background-color: red;
+    display: none;
+    border: #E70000;
+    margin-top: 4px;
+    font-size: 25px;
 }
 /* #swipemenu{
     width: 90%;
@@ -870,7 +881,115 @@ body{
     left: 65px;
     top: 0px;
 } */
-@media only screen and (max-width: 772px) {
+
+.backbutton{
+    padding: 10px;
+}
+
+.optionslist{
+    margin: 0px;
+}
+.copy{
+    height: auto;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-family: regular;
+    display: block;
+    padding: 10px 0% 10px 0%;
+}
+.copysize{
+    margin: 0;
+}
+
+.menunavigation {
+    position: absolute;
+    right: 0px;
+    background-color: #E70000;
+    display: none;
+    width: 91%;
+    height: 228px;
+    z-index: 1
+    
+}
+.optionslist{
+    font-family: poppins;
+    list-style: none;
+}
+
+@media only screen and (max-width: 1150px){
+    .wheelbox {
+       
+        top: 81px;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    .carbanner {
+       
+        left: -25px;
+    }
+    
+}
+
+@media only screen and (max-width: 1050px){
+    .carbanner {
+        width: 91%;
+        position: relative;
+        left: 20px;
+        z-index: 1;
+        top: 61px;
+    }
+    .free{
+        width: auto;
+    }
+    .calenderimg {
+
+        width: 43%;
+    }    
+}
+
+@media only screen and (max-width: 939px){
+    .wheelbox {
+        
+        height: 245px;
+
+        font-size: 37px;
+        
+    }
+    
+     .freebox1 {
+        
+         padding: 0px 0px;
+     }
+     .polo {
+         width: 250%;
+         
+         top: 162px;
+     }
+     .carbanner {
+        top: 74px;
+     }
+     .calenderimg {
+         background-color: #E9E4E4;
+         height: 77px;
+         width: 46%;
+        }
+    .drivemore {
+         height: auto;
+    }
+}
+
+
+
+@media only screen and (max-width: 836px) {
+
+    
+    .menunavigation {
+    
+        height: 581px;
+    }
     .login{
         display: none;
     }
@@ -886,15 +1005,28 @@ body{
     }
     .long{
         margin-top: -41px;
+        text-align: center;
     }
-    .drivemore{
-        width: 135%;
+    .banner1 {
+        padding: 0;
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .drivemore {
+       width: auto;
+        
     } 
     .wheelbox {
-        font-size: 41px;
-        top: 240px;
+        font-size: 38px;
+        top: 449px;
         height: auto;
-        left: 42px;
+        left: -384px;
+        width: 215%;
+        padding: 12px;
+        display: flex;
+        justify-content: center;
     }
     .oursection{
         column-gap: 10px;
@@ -953,15 +1085,7 @@ body{
     .header2 {
         display: none;
     }
-    .wheelbox {
-        font-size: 41px;
-        top: 459px;
-        height: auto;
-        left: -354px;
-        /* right: -5px; */
-        text-align: center;
-        width: 218%;
-    }
+    
     .img3 {
         
         padding-top: 8%;
@@ -989,10 +1113,41 @@ body{
             margin-left: 14px;
         
     }
-    
+    .swipetab{
+        display: block;
+    }
+    .menunavigation{
+        display: none;
+    }
+    .bannerbox {
+        height: 300px;
+        width: 65%;
+       
+        padding-top: 33px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .long {
+        margin-top: 0px;
+        ;
+    }
   }
 
-
+  @media only screen and (max-width: 710px){
+    .wheelbox {
+        
+        left: -326px;
+    }
+    .wheelbox {
+        left: -312px;
+    }
+  }
+  @media only screen and (max-width: 710px){
+    
+    .wheelbox {
+        left: -312px;
+    }
+  }
 
   @media only screen and (max-width: 485px) {
     .polo {
@@ -1001,7 +1156,7 @@ body{
         top: 448px;
     }
     .drivemore {
-        width: 397px;
+        width: 100%;
         height: auto;
         font-size: 13px;
         margin-top: -20px;
@@ -1016,7 +1171,7 @@ body{
     }
     .discounttext {
 
-        font-size: 11px;
+        font-size: 16px;
     }
     /* .booknow2 {
         height: 33px;
@@ -1063,7 +1218,7 @@ body{
         display: none;
     }
     .banner {
-        height: 693px;
+        height: 846px;
     }
     .benefitbox {
         
@@ -1106,5 +1261,76 @@ body{
     .choosecurve {
         padding: 11px;
     }
+    .imgpolo {
+        display: none;
+    }
+    .textchoose {
+        
+        padding-left: 11px;
+    }
+    .choosecurve{
+        flex-direction: column;
+    }
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footerin {
+        height: auto;
+        margin-top: -13px;
+    }
+    .helpfullink1 {
+        margin-top: -11px;
+    }
+    .img2 {
+        width: 25%;
+    }
 
+    .pickup {
+        row-gap: 10px;
+       
+        display: flex;
+        flex-direction: column;
+    }
+    .date{
+        width: 96%;
+    }
+    .time{
+        width: 100%;
+    }
+    .bookingbox {
+        
+        height: auto;
+    }
+    .dropoff {
+      
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        margin-top: 98px;
+    }
+    .offdate {
+        width: 81%;
+    }
+    .offtime {
+        width: 100%;
+     
+    }
+    .form-group{
+        margin-top: 85px;
+    }
+    
+    .menunavigation{
+        height: 700px;
+    }
+    .offdatebox {
+        width: 118%;
+    }
+    .selection {
+      
+        width: 99%;
+      
+    }
 }
