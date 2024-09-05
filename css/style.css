@@ -909,7 +909,7 @@ body{
     background-color: #E70000;
     display: none;
     width: 91%;
-    height: 228px;
+    height: 100%;
     z-index: 1
     
 }
@@ -988,7 +988,7 @@ body{
     
     .menunavigation {
     
-        height: 581px;
+        height: 100%;
     }
     .login{
         display: none;
@@ -1322,9 +1322,9 @@ body{
         margin-top: 85px;
     }
     
-    .menunavigation{
+    /* .menunavigation{
         height: 700px;
-    }
+    } */
     .offdatebox {
         width: 118%;
     }
