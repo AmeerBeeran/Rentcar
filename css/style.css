@@ -318,6 +318,10 @@ body{
 .optionslist{
     color: white;
 }
+.optionslist>li{
+    
+    margin-bottom: 7px !important;
+}
 .freebox{
     height: auto;
     box-sizing: border-box;
